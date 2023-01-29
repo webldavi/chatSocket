@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Turing Chat</title>
+</head>
+<body class="w-full min-h-screen flex items-center justify-center bg-gray-900 font-mono p-2">
+    <form action="chat.html" class="w-full max-w-xl h-max border border-white rounded-lg flex flex-col gap-4 p-4 text-white">
+        <span>Escreva um nickname</span>
+        <input name="nickname" type="text" maxlength="10" placeholder="Seu nickname" class="w-full p-2 rounded-lg border border-gray-300 bg-gray-700 ring-0 outline-none pl-2">
+        <span>Selecione a sala</span>
+        <select name="room" class="w-full p-2 rounded-lg border border-gray-300 bg-gray-700 ring-0 outline-none">
+            <option value="VueJS">Vue.js</option>
+            <option value="Node">Node.js</option>
+        </select>
+        <button class="w-full p-2 flex items-center justify-center bg-green-500 text-green-800 rounded-lg">
+            <span class="font-bold text-xl">Login</span>
+        </button>
+    </form>
+</body>
+</html>

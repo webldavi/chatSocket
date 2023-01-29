@@ -1,0 +1,12 @@
+{
+  "name": "chatSocket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/webldavi/chatSocket.git",
+  "author": "webldavi <luisdavi.contato@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
